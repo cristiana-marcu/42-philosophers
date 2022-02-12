@@ -6,7 +6,7 @@
 /*   By: cmarcu <cmarcu@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/11 22:03:53 by cmarcu            #+#    #+#             */
-/*   Updated: 2022/02/11 23:10:53 by cmarcu           ###   ########.fr       */
+/*   Updated: 2022/02/12 13:17:13 by cmarcu           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,6 +27,14 @@
 * con join a que acabe un hilo en el mismo bucle, porque nunca habrá más de
 * un hilo corriendo a la vez
 *
+* Para compilar: gcc -g -pthread pruebas.c && ./a.out
+* Para limpiar hilos podemos hacer sanitize=threads
+*
+* Los filósofos no pueden coger los dos tenedores a la vez: primero cogen uno
+* y luego mira si puede o no coger el otro. Si no puede, deja el que ya cogió.
+*
+* MUTEX viene de MUTual EXclusion y permite sincronizar el uso de un recurso
+* compartido entre hilos, véase un tenedor :)
 *
 *
 *
