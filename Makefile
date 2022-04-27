@@ -3,14 +3,14 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: cmarcu <cmarcu@student.42.fr>              +#+  +:+       +#+         #
+#    By: cristianamarcu <cristianamarcu@student.    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/08/25 15:00:27 by cmarcu            #+#    #+#              #
-#    Updated: 2022/02/11 19:07:21 by cmarcu           ###   ########.fr        #
+#    Updated: 2022/04/24 17:23:13 by cristianama      ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-SRCS = main.c
+SRCS = main.c checkers.c initializer.c actions.c utils.c
 OBJS = $(SRCS:.c=.o)
 
 CC = gcc
